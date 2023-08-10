@@ -298,6 +298,7 @@ btnTransfer.addEventListener('click', function (e) {
 
 btnLoan.addEventListener('click', function (e) {
   e.preventDefault();
+  console.log('Present');
 
   const amount = Math.floor(inputLoanAmount.value);
 
@@ -353,4 +354,3 @@ btnSort.addEventListener('click', function (e) {
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
-console.log('Present');
